@@ -16,7 +16,7 @@
     "nodemon": "^2.0.13"
   },
   "scripts": {
-    "start": "node /app/server.js",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "client":"npm start --prefix client",
     "clientinstall":"npm install --prefix client",
