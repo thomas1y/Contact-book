@@ -1,7 +1,7 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "Server.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
@@ -16,8 +16,8 @@
     "nodemon": "^2.0.13"
   },
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node Server.js",
+    "server": "nodemon Server.js",
     "client":"npm start --prefix client",
     "clientinstall":"npm install --prefix client",
     "dev":"concurrently \"npm run server\" \"npm run client\"",
