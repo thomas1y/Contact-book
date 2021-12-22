@@ -4,7 +4,7 @@ const db = config.get("MONGO_URI");
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(db, {
+    await mongoose.connect(process.env.MONGO_URI ||db, {
       useNewUrlParser: true,
       //useCreateIndex: true,
       //useFindAndModify: false,
